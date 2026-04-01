@@ -64,3 +64,6 @@ brunch bangkk
 ```
 # 
 # 
+# Adding maintainer name to build
+https://github.com/VoltageOS/packages_apps_Settings/compare/16.2...VoltageBangkk:packages_apps_Settings:16.2
+# 
