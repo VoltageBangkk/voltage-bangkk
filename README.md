@@ -1,7 +1,7 @@
 # Voltage OS Moto G84 5G
 building Voltage for bangkk
 
-voltage.jpg
+![descrição](voltage.jpg)
 
 # 
 # 
