@@ -1,10 +1,13 @@
 # Voltage OS Moto G84 5G
 building Voltage for bangkk
 
-First, we create Voltage directory
-
+# First, we create Voltage directory
 ```
 mkdir ~/voltage && cd ~/voltage
+```
+# Repo Init
+```
+repo init -u https://github.com/VoltageOS/manifest.git -b 16.2 --git-lfs
 ```
 
 # NFC
