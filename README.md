@@ -1,6 +1,8 @@
 # Voltage OS Moto G84 5G
 building Voltage for bangkk
 
+
+
 First, we create Voltage directory
 ```
 mkdir ~/voltage && cd ~/voltage
@@ -13,6 +15,10 @@ Sync
 ```
 repo sync -c -j6 --force-sync --no-clone-bundle --no-tags
 ```
+
+#Cloning tree
+
+
 NFC
 ```
 git clone https://github.com/VoltageBangkk/android_hardware_samsung_slsi_nfc.git -b 16.2 hardware/samsung/slsi/nfc
