@@ -70,3 +70,6 @@ brunch bangkk
 # Adding maintainer name to build
 https://github.com/VoltageOS/packages_apps_Settings/commit/ac127738bbe1a8a3c48a994c5e2a49ef88f9c30b
 # 
+# Changing Wallpaper Default
+https://github.com/VoltageOS/vendor_voltage/commit/28dbae5940b8d8734b571c13860b356cb6f38262
+# 
