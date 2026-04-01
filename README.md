@@ -1,5 +1,11 @@
 # Voltage OS Moto G84 5G
-Clone ready to build voltage for bangkk
+building Voltage for bangkk
+
+First, we create Voltage directory
+
+```
+mkdir ~/voltage && cd ~/voltage
+```
 
 # NFC
 ```
