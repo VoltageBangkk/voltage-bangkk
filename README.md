@@ -36,7 +36,7 @@ git clone https://github.com/VoltageBangkk/proprietary_vendor_motorola_sm6375-co
 # 
 # Build
 ```
-	. build/envsetup.sh
+. build/envsetup.sh
   ```
 ```
 brunch bangkk
