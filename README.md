@@ -29,9 +29,30 @@ Vendor common
 ```
 git clone https://github.com/VoltageBangkk/proprietary_vendor_motorola_sm6375-common.git -b 16.2 vendor/motorola/sm6375-common
 ```
-
-
-
+Vendor
+```
+git clone https://github.com/VoltageBangkk/proprietary_vendor_motorola_bangkk.git -b 16.2 vendor/motorola/bangkk
+```
+Dolby
+```
+git clone https://github.com/VoltageBangkk/vendor_sony_dolby.git -b 16.2 vendor/sony/dolby
+```
+Kernel
+```
+git clone https://github.com/VoltageBangkk/android_kernel_motorola_sm6375.git -b 16.2 kernel/motorola/sm6375
+```
+Hardware
+```
+git clone https://github.com/VoltageBangkk/android_hardware_motorola.git -b 16.2 hardware/motorola
+```
+Device Common
+```
+git clone https://github.com/VoltageBangkk/android_device_motorola_sm6375-common.git -b 16.2 device/motorola/sm6375-common
+```
+Device
+```
+git clone https://github.com/VoltageBangkk/android_device_motorola_bangkk.git -b 16.2 device/motorola/bangkk
+```
 # 
 # 
 # Build
@@ -41,3 +62,5 @@ git clone https://github.com/VoltageBangkk/proprietary_vendor_motorola_sm6375-co
 ```
 brunch bangkk
 ```
+# 
+# 
