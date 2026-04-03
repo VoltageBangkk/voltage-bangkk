@@ -78,7 +78,7 @@ https://github.com/ZedissPp/android_device_motorola_bangkk/commit/b3a57db11c73ed
 # For GApps
 https://github.com/MindTheGapps/16.0.0-arm64/releases
 # 
-build guide by ![ZedissPp](https://github.com/ZedissPp)
+build guide by [ZedissPp](https://github.com/ZedissPp)
 Come say hi in our Telegram group!
 https://t.me/zedisspechat
 # 
