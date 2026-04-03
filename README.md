@@ -36,10 +36,6 @@ Vendor
 ```
 git clone https://github.com/VoltageBangkk/proprietary_vendor_motorola_bangkk.git -b 16.2 vendor/motorola/bangkk
 ```
-Dolby
-```
-git clone https://github.com/VoltageBangkk/vendor_sony_dolby.git -b 16.2 vendor/sony/dolby
-```
 Kernel
 ```
 git clone https://github.com/VoltageBangkk/android_kernel_motorola_sm6375.git -b 16.2 kernel/motorola/sm6375
@@ -56,6 +52,10 @@ Device
 ```
 git clone https://github.com/VoltageBangkk/android_device_motorola_bangkk.git -b 16.2 device/motorola/bangkk
 ```
+Dolby Sony
+```
+git clone https://github.com/VoltageBangkk/vendor_sony_dolby.git -b 16.2 vendor/sony/dolby
+```
 # 
 # 
 # Build
@@ -67,12 +67,17 @@ brunch bangkk
 ```
 # 
 # 
-# Adding maintainer name to build
-https://github.com/VoltageOS/packages_apps_Settings/commit/ac127738bbe1a8a3c48a994c5e2a49ef88f9c30b
+# Adding maintainer & SmartPixels to build
+https://github.com/ZedissPp/android_device_motorola_bangkk/commit/99c61ef91343f0ec0f8e5f09b0edaa7e188dfa00
+#
+and
+#
+https://github.com/ZedissPp/android_device_motorola_bangkk/commit/b3a57db11c73ed47e48ccb9f46b1a17e863a6ba9
 # 
-# Changing Wallpaper Default
-https://github.com/VoltageOS/vendor_voltage/commit/28dbae5940b8d8734b571c13860b356cb6f38262
-# 
-# If you want GApps
+# For GApps
 https://github.com/MindTheGapps/16.0.0-arm64/releases
+# 
+build guide by @ZedissPp
+Come say hi in our Telegram group!
+https://t.me/zedisspechat
 # 
