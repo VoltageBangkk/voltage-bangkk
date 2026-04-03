@@ -5,9 +5,7 @@ Learn how to build voltage OS for bangkk easily
 # 
 Ceate Voltage directory
 ```
-#mkdir
 mkdir ~/voltage
-#cd
 cd ~/voltage
 ```
 # 
