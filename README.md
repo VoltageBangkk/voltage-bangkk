@@ -13,9 +13,7 @@ mkdir ~/voltage && cd ~/voltage
 Repo Init
 ```
 repo init -u https://github.com/VoltageOS/manifest.git -b 16.2 --git-lfs
-```
-Sync
-```
+
 repo sync -c -j6 --force-sync --no-clone-bundle --no-tags
 ```
 
