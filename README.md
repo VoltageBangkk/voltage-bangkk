@@ -1,9 +1,9 @@
-# Voltage OS Moto G84 5G
-building Voltage for bangkk
+# Guide Build for Voltage OS Moto G84 (bangkk)
+Learn how to build voltage OS for bangkk easily
 
 ![descrição](voltage.jpg)
 # 
-First, we create Voltage directory
+Ceate Voltage directory
 ```
 mkdir ~/voltage && cd ~/voltage
 ```
