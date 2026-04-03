@@ -11,10 +11,7 @@ cd ~/voltage
 # 
 Synchronizing source
 ```
-#repo-init
 repo init -u https://github.com/VoltageOS/manifest.git -b 16.2 --git-lfs
-
-#sync
 repo sync -c -j6 --force-sync --no-clone-bundle --no-tags
 ```
 # 
