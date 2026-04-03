@@ -5,7 +5,10 @@ Learn how to build voltage OS for bangkk easily
 # 
 Ceate Voltage directory
 ```
-mkdir ~/voltage && cd ~/voltage
+#mkdir
+mkdir ~/voltage
+#cd
+cd ~/voltage
 ```
 # 
 Synchronizing source
