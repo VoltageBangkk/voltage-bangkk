@@ -10,20 +10,18 @@ First, we create Voltage directory
 ```
 mkdir ~/voltage && cd ~/voltage
 ```
-Repo Init
+Synchronizing source
 ```
+#repo-init
 repo init -u https://github.com/VoltageOS/manifest.git -b 16.2 --git-lfs
-```
-Repo sync
-```
+
+#sync
 repo sync -c -j6 --force-sync --no-clone-bundle --no-tags
 ```
 
 # 
 # 
-# Cloning tree
-
-If you want to save time, clone everything at once
+Cloning tree
 ```
 #nfc
 git clone https://github.com/VoltageBangkk/android_hardware_samsung_slsi_nfc.git -b 16.2 hardware/samsung/slsi/nfc
@@ -50,17 +48,7 @@ git clone https://github.com/VoltageBangkk/android_device_motorola_bangkk.git -b
 git clone https://github.com/VoltageBangkk/vendor_sony_dolby.git -b 16.2 vendor/sony/dolby
 ```
 
-NFC
-```
-git clone https://github.com/VoltageBangkk/android_hardware_samsung_slsi_nfc.git -b 16.2 hardware/samsung/slsi/nfc
-```
-Vendor common
-```
-git clone https://github.com/VoltageBangkk/proprietary_vendor_motorola_sm6375-common.git -b 16.2 vendor/motorola/sm6375-common
-```
-Vendor
-```
-git clone https://github.com/VoltageBangkk/proprietary_vendor_motorola_bangkk.git -b 16.2 vendor/motorola/bangkk
+https://github.com/VoltageBangkk/proprietary_vendor_motorola_bangkk.git -b 16.2 vendor/motorola/bangkk
 ```
 Kernel
 ```
