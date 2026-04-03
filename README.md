@@ -13,7 +13,9 @@ mkdir ~/voltage && cd ~/voltage
 Repo Init
 ```
 repo init -u https://github.com/VoltageOS/manifest.git -b 16.2 --git-lfs
-
+```
+Repo sync
+```
 repo sync -c -j6 --force-sync --no-clone-bundle --no-tags
 ```
 
@@ -21,6 +23,32 @@ repo sync -c -j6 --force-sync --no-clone-bundle --no-tags
 # 
 # Cloning tree
 
+If you want to save time, clone everything at once
+```
+#nfc
+git clone https://github.com/VoltageBangkk/android_hardware_samsung_slsi_nfc.git -b 16.2 hardware/samsung/slsi/nfc
+
+#vendor-common
+git clone https://github.com/VoltageBangkk/proprietary_vendor_motorola_sm6375-common.git -b 16.2 vendor/motorola/sm6375-common
+
+#vendor
+git clone https://github.com/VoltageBangkk/proprietary_vendor_motorola_bangkk.git -b 16.2 vendor/motorola/bangkk
+
+#kernel
+git clone https://github.com/VoltageBangkk/android_kernel_motorola_sm6375.git -b 16.2 kernel/motorola/sm6375
+
+#hardware
+git clone https://github.com/VoltageBangkk/android_hardware_motorola.git -b 16.2 hardware/motorola
+
+#device-common
+git clone https://github.com/VoltageBangkk/android_device_motorola_sm6375-common.git -b 16.2 device/motorola/sm6375-common
+
+#device
+git clone https://github.com/VoltageBangkk/android_device_motorola_bangkk.git -b 16.2 device/motorola/bangkk
+
+#dolby
+git clone https://github.com/VoltageBangkk/vendor_sony_dolby.git -b 16.2 vendor/sony/dolby
+```
 
 NFC
 ```
